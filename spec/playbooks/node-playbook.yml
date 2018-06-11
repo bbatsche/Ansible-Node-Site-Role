@@ -13,7 +13,7 @@
       passenger_app: yes
 
   tasks:
-    - include: ../../tasks/main.yml
+    - import_tasks: ../../tasks/main.yml
 
   post_tasks:
     - name: Force Nginx Restart

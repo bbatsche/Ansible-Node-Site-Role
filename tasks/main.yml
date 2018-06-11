@@ -1,4 +1,8 @@
 ---
+- name: Install Git
+  apt: name=git state=present
+  become: yes
+
 - name: Create NVM Root
   file:
     path: "{{ nvm_root }}"
