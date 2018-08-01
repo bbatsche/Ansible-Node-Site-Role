@@ -1,7 +1,11 @@
 Ansible Node.js Site Role
 =========================
 
-[![Build Status](https://travis-ci.org/bbatsche/Ansible-Node-Site-Role.svg?branch=master)](https://travis-ci.org/bbatsche/Ansible-Node-Site-Role)  [![Ansible Galaxy](https://img.shields.io/ansible/role/7466.svg)](https://galaxy.ansible.com/bbatsche/Node)
+[![Build Status](https://travis-ci.org/bbatsche/Ansible-Node-Site-Role.svg)](https://travis-ci.org/bbatsche/Ansible-Node-Site-Role)
+[![License](https://img.shields.io/github/license/bbatsche/Ansible-Node-Site-Role.svg)](LICENSE)
+[![Role Name](https://img.shields.io/ansible/role/7466.svg)](https://galaxy.ansible.com/bbatsche/Node)
+[![Release Version](https://img.shields.io/github/tag/bbatsche/Ansible-Node-Site-Role.svg)](https://galaxy.ansible.com/bbatsche/Node)
+[![Downloads](https://img.shields.io/ansible/role/d/7466.svg)](https://galaxy.ansible.com/bbatsche/Node)
 
 This role will install NVM and use that to setup a given version of Node.js. It will create an Nginx site running that node executable through Phusion Passenger.
 
