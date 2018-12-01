@@ -52,7 +52,7 @@
 
 - name: Create NVM Directories
   file: path={{ nvm_root }}/{{ item }} state=directory
-  with_items:
+  loop:
     - alias
     - bin
     - src
