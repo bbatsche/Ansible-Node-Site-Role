@@ -1,6 +1,6 @@
 ---
 nvm_version:  v0.33.11
-node_version: v8.11.2
+node_version: v10.14.1
 copy_appjs:   no
 
 nginx_configs:
